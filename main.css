@@ -1,0 +1,147 @@
+html, body{ 
+  margin:0;
+  padding:0;
+  width:100%;
+}
+
+#container {
+	min-height: 100%;
+	position: relative;
+	overflow: hidden;
+	background: #95001A;
+}
+#container:before{
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 0;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+#header {
+	height:36px;
+	background:#fff;
+	border-top:3px solid #267fc1;
+	border-bottom:1px solid #a9a9a9;
+	box-shadow:0 0 6px 1px #666;
+	/*overflow: hidden;*/
+}
+
+#inner_container {
+  overflow:hidden;
+  padding-left: 275px;   /* LC width */
+  padding-right: 275px;  /* RC width */
+  height:100%;
+  min-height: 650px;		/*needs to be this big for pop up in sidebar and accounts */
+  position: relative;
+}
+
+#rsidebar {
+	width:275px;
+	padding-bottom:15px;
+	background:#267fc1;
+	margin-right: -275px;
+}
+
+#lsidebar {
+	width:275px;
+	padding-bottom:15px;
+	background:#267fc1;
+	margin-left: -275px;
+}
+#center_content {
+	width:100%;
+}
+
+.left {
+	float:left;
+}
+.right {
+	float: right;
+}
+
+.inline {
+	display:inline;
+}
+
+#inner_container .column {
+  position: relative;
+  float: left;
+  padding-bottom: 32767px;
+  margin-bottom: -32750px;
+}
+
+#wrapper {
+	background: #fff;
+	border-radius: 6px;
+	box-shadow: 0 4px 4px 1px #000;
+	margin: 12px 12px 0;
+	position: relative;
+}
+
+#lsidebar_wrapper {
+	background: #fff;
+	border-radius: 6px;
+	box-shadow: 0 4px 4px 1px #000;
+	margin: 6px 6px 0;
+	position: relative;
+	padding: 5px;
+}
+
+#rsidebar_wrapper {
+	background: #fff;
+	border-radius: 6px;
+	box-shadow: 0 4px 4px 1px #000;
+	margin: 6px 6px 0;
+	position: relative;
+	padding: 5px;
+}
+
+#main_header_content {
+	font: 20px avenir_lt_std_35_lightregular,Arial,Helvetica,sans-serif;
+	position: relative;
+	background: #267FC1;
+	border-bottom: 1px solid #aba9aa;
+	border-radius: 5px 5px 0 0;
+	color: white;
+	height: 25px;
+	padding: 5px;
+}
+
+#main_content_writing {
+	padding: 10px;
+}
+
+#main_content_menus {
+	background: #7E7F82;
+	height: 35px;
+	width:100%;
+	margin-top: -16px;
+}
+
+#main_content_menus ul {
+	list-style-type: none;
+}
+
+#main_content_menus ul li{
+	display: inline;
+}
+
+
+
+
+
